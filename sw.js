@@ -1,6 +1,6 @@
 self.addEventListener("fetch", function (event) {
     event.respondWith(function() {
-        return fetch("http://gs.statcounter.com/detect")
+        return fetch("https://www.whoishostingthis.com/tools/user-agent/")
             .then(function (response) {
                 return response;
             });
